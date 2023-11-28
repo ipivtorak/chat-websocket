@@ -1,8 +1,7 @@
-import React from 'react'
-import './App.scss'
-
-import MessageWindow from './components/MessageWindow'
-import TextBar from './components/TextBar'
+import React from 'react';
+import MessageWindow from './components/MessageWindow';
+import TextBar from './components/TextBar';
+import './App.scss';
 
 const App = () => (
     <div className='container'>
