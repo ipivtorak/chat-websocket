@@ -1,0 +1,19 @@
+.textbar-input {
+    flex-grow: 1;
+    box-sizing: border-box;
+    border: 1px solid #eaeaea;
+    border-radius: 0;
+    padding: 10px 20px;
+
+    &:focus-visible {
+        outline: none;
+    }
+
+    &::placeholder {
+        color: #969ca2;
+    }
+}
+
+.input-error {
+    border-color: #ff0221;
+}
